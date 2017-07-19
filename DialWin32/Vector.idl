@@ -1,0 +1,10 @@
+import "inspectable.idl";
+import "Windows.Foundation.idl";
+import "Windows.UI.Input.idl";
+
+namespace collections
+{
+	declare{
+	    interface Windows.Foundation.Collections.IVector<Windows.UI.Input.RadialControllerSystemMenuItemKind>;
+    }
+}
